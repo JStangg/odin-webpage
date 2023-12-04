@@ -130,3 +130,43 @@ a {
     display: flex;
     justify-content: flex-end;
 }
+
+.action {
+    padding: 50px;
+}
+
+.action-box {
+    display: flex;
+    background-color: #3882f6;
+    border-radius: 12px;
+    padding: 36px 200px;
+    justify-content: space-between;
+    gap: 50px;
+}
+
+.action-text {
+    color: #e5e7eb;
+    font-size: 12px;
+}
+
+#action-header {
+    font-weight: 700;
+    font-size: 14px;
+}
+
+.action-button {
+    border-radius: 8px;
+    background-color: #3882f6;
+    color: #e5e7eb;
+    font-weight: 700;
+    width: 100px;
+    border: 2px solid #caccd0;
+}
+
+footer {
+    background-color: #1f2937;
+    color: #caccd0;
+    display: flex;
+    justify-content: center;
+    padding: 2em 0;
+}
